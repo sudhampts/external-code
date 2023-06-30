@@ -1,0 +1,1100 @@
+/* <!-- Okayssion_header css starts --> */
+
+/* ON CLICK HOVER START */
+#desktop_underline {
+    cursor: pointer;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+#desktop_underline:focus,
+#desktop_underline:hover {
+    color: #000000;
+}
+
+#desktop_underline:focus:after,
+#desktop_underline:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+#desktop_underline:after {
+    content: "";
+    pointer-events: none;
+    bottom: -10px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #557A95;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+/* ON CLICK HOVER END */
+.mainparent .coming_soon_logoO {
+    width: 197.31px;
+    height: 48px;
+
+}
+
+.mainparent .navbar {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.mainparent .login_button_Navbar {
+    width: 59px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+    padding-top: 11px;
+}
+
+.mainparent .signup_button_Navbar {
+    height: 35px;
+    background-color: #557195;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff !important;
+    width: 5em;
+}
+
+
+.mainparent .line_navbar {
+    margin: 0 auto;
+    width: 93%;
+    border-bottom: 1px solid black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.mainparent .navigation_bar {
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    float: inline-end;
+    margin-left: 2em;
+    color: #000000;
+}
+
+.mainparent .coming_soon_backgroundimg {
+    background-image: url(./images/_home\ image.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.mainparent .coming_soon_heading {
+    margin-top: 17%;
+    margin-left: 46px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 60px;
+    color: #557A95;
+}
+
+.mainparent .coming_soon_heading1 {
+    margin-left: 46px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4B4B4B;
+}
+
+.mainparent .illustration_img {
+    height: 106px;
+    width: 120px;
+    padding-bottom: 16px;
+}
+
+.mainparent .vector_croos_image {
+    height: 10px;
+    width: 10px;
+    margin-left: 96%;
+    margin-top: 15px;
+}
+
+.mainparent .card_heading_vendor {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: auto;
+}
+
+.mainparent .card_Peragraph_engage {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.mainparent #popup.card {
+    height: 130px;
+    width: 44.24rem;
+    z-index: 1;
+    position: fixed;
+    left: calc(32% - 90px);
+    top: calc(75% - 1px);
+}
+
+.mainparent .card_sign_btn {
+    height: 35px;
+    background-color: #557195;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 25px !important;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.mainparent .nav-link {
+    float: right;
+    margin-top: 2%;
+}
+
+.mainparent .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.mainparent .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* <!-- Okayssion_header css end --> */
+
+/*Okayssion main_section css starts  */
+.main_section {
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+}
+
+.main_section .wedding_card {
+    height: 587px;
+    width: 95%;
+    background: url(./images/Coming\ soon\ wedding\ image.png);
+    background-size: cover;
+    border: none;
+    border-radius: 16px;
+    margin-left: 22px !important;
+}
+
+.main_section .event_card {
+    height: 587px;
+    width: 95%;
+    background: url(./images/coming\ soon\ events\ image.png);
+    background-size: cover;
+    border: none;
+    border-radius: 16px;
+    margin-left: 22px !important;
+}
+
+.main_section .clothing_card {
+    height: 587px;
+    width: 95%;
+    background: url(./images/coming\ soon\ fashion\ image.png);
+    background-size: cover;
+    border: none;
+    border-radius: 16px;
+    margin-left: 5px !important;
+}
+
+.main_section .heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+
+
+.main_section .booknow_btn {
+    background-color: #557A95;
+    color: white;
+    width: 195.35px;
+    border: none;
+    border-radius: 7.94118px;
+}
+
+.main_section .booknow_btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.7647px;
+}
+
+.main_section .text_content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main_section .text_content_1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main_section .book_now_content {
+    background: url(./images/Book\ your\ genie\ \(1\).png);
+    width: 100%;
+    height: 100%;
+
+}
+
+.main_section .genie {
+    text-align: center;
+    color: #557A95;
+    padding: 1%;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+}
+
+.main_section .okassionlogo {
+    width: 197.31px;
+    height: 48px;
+
+}
+
+.main_section .footer_line {
+    width: 93%;
+    border: 1px solid #EBEBEB;
+    margin-top: 40px !important;
+}
+
+
+.main_section .footer_conent {
+    width: 60%;
+    margin-left: 20%;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+
+}
+
+.main_section .footer_txt {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px !important;
+}
+
+.main_section .card_heading {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.main_section a {
+    text-decoration: none;
+}
+
+.main_section .image_why_choose_desktop {
+    margin-top: 3% !important;
+}
+
+.main_section .book_now_content {
+    margin-top: 4% !important;
+}
+
+
+/* Okayssion main_section  css end  */
+
+/* Okayssion Coming_soon css starts */
+.main_section_coming_soon .img {
+    color: #557A95;
+    margin-left: 10% !important;
+}
+
+.main_section_coming_soon .images_coming_soon {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 116.5%;
+    margin-left: 5px !important;
+}
+
+.main_section_coming_soon .images_data_okayssion {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 117.5%;
+    letter-spacing: -0.035em;
+}
+
+.main_section_coming_soon {
+    overflow: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* media query for tablet view starts */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    /* main_section_coming_soon media query starts */
+    .main_section_coming_soon .coming_soon_desktop_img {
+        width: 110%;
+    }
+
+    .main_section_coming_soon .images_coming_soon {
+        font-size: 15px;
+    }
+
+    .main_section_coming_soon .images_data_okayssion {
+        font-size: 40px;
+    }
+
+    /* main_section_coming_soon media query end */
+
+
+
+
+
+    /* main_section tablet view media query starts */
+    .main_section .wedding_card {
+        height: 350px;
+        width: 93%;
+        margin-left: 22px !important;
+    }
+
+    .main_section .event_card {
+        height: 350px;
+        width: 93%;
+        margin-left: 24px !important;
+    }
+
+    .main_section .clothing_card {
+        height: 350px;
+        width: 93%;
+        margin-left: 10px !important;
+    }
+
+    .main_section .last_imges {
+        /* margin-top: 4% !important; */
+        height: 24px !important;
+        width: 24px !important;
+    }
+
+    .main_section .heading {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+
+    .main_section .genie {
+        font-size: 34px !important;
+        margin: 0px !important;
+    }
+
+    .main_section .text_content {
+        font-size: 20px !important;
+    }
+
+    .main_section .booknow_btn {
+        width: 145px !important;
+    }
+
+    .main_section .booknow_btn a {
+        font-size: 20.7647px !important;
+    }
+
+    .main_section .footer_txt {
+        margin: 3%;
+    }
+
+    .main_section .footer_conent {
+        margin-top: 18px !important;
+    }
+
+    .main_section .img_Okayssion {
+        padding-top: 40px !important;
+    }
+
+    .main_section #footer_txt_1 {
+        margin-top: 0px;
+    }
+
+    .mainparent #popup.card {
+        height: 125px;
+        width: 43.24rem;
+        left: 5%;
+        position: fixed;
+    }
+
+    .mainparent .navbar-toggler {
+        border: none;
+        padding-top: 15px;
+    }
+
+    .mainparent .login_button_Navbar {
+        position: absolute;
+        margin-left: 40px;
+    }
+
+    .mainparent .signup_button_Navbar {
+        margin-top: 45%;
+    }
+
+    .mainparent .line_navbar {
+        display: none;
+    }
+
+    .mainparent .coming_soon_heading {
+        font-size: 76px;
+    }
+
+    .mainparent .coming_soon_heading1 {
+        font-size: 32px;
+    }
+
+    /* main_section tablet view media query end */
+
+    /* main_div_book_now_button media query starts */
+
+
+
+    .main_div_book_now_button .book_now_data_images {
+        font-size: 10px !important;
+        padding-left: 0px !important;
+    }
+
+    .main_div_book_now_button .form-label {
+        font-size: 16px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .main_div_book_now_button #text_area {
+        height: 200px !important;
+    }
+
+    .main_div_book_now_button .form-control {
+        height: 40px !important;
+    }
+
+    .main_div_book_now_button .book_now_btnn {
+        width: 110px !important;
+        height: 30px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .main_div_book_now_button .book_now_btnn a {
+        font-size: 16px;
+    }
+
+
+/* main_div_book_now_button media query end */
+}
+
+/* media query for tablet view ends */
+
+/* media query for mobile view starts */
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+
+    /* main_section_coming_soon media query mobioe view  start */
+
+    .main_section_coming_soon .images_coming_soon {
+        font-size: 12px;
+    }
+
+    .main_section_coming_soon .images_data_okayssion {
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .main_section_coming_soon .mobile_view_coming {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_section_coming_soon .coming_soon_mobile {
+        display: block;
+    }
+
+    .main_section_coming_soon .coming_soon_desktop_img {
+        display: none;
+    }
+
+    .main_section_coming_soon .coming_soon_mobile {
+        display: flex;
+    }
+
+    .main_section_coming_soon .img {
+        padding: 0px !important;
+        text-align: center !important;
+        padding: 40px !important;
+        margin: 0px !important;
+
+    }
+
+    .main_section_coming_soon .collumn_coming {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .main_section_coming_soon .coming_soon_mobile_view {
+        width: 425px;
+        height: 300px;
+    }
+
+    /* main_section_coming_soon media query mobile view ends */
+
+
+
+    /* main_section media query for mobile view starts */
+    .main_section .wedding_card,
+    .main_section .clothing_card {
+        height: 224px !important;
+        width: 246px !important;
+        margin: 0px !important;
+    }
+
+    .main_section .event_card {
+        background: url(./images/events_image_mobile_view.png);
+        height: 224px !important;
+        width: 246px !important;
+        margin: 0px !important;
+        background-size: cover;
+    }
+
+    .main_section .book_now_2images {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+
+    .main_section .heading {
+        font-size: 20px !important;
+        margin: 0px;
+    }
+
+    .main_section .genie {
+        font-size: 25px !important;
+        margin: 0px;
+    }
+
+    .main_section .okassionlogo {
+        height: 30px !important;
+        width: 120.19px !important;
+    }
+
+    .main_section .footer_conent {
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        margin-top: 25px !important;
+    }
+
+
+    .main_section .last_imges {
+        /* margin-top: 3% !important; */
+        height: 14px !important;
+        width: 14px !important;
+    }
+
+    .main_section .booknow_btn {
+        height: 23px !important;
+        width: 83px !important;
+        font-size: 12px !important;
+        margin-top: 0px !important;
+    }
+
+    .main_section .booknow_btn a {
+        font-size: 12px !important;
+    }
+
+    .main_section .text_content_1 {
+        font-size: 17px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .main_section .text_content {
+        font-size: 15px !important;
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .main_section .image_why_choose_mobile {
+        display: block;
+    }
+
+    .main_section .image_why_choose_desktop {
+        display: none;
+    }
+
+    .main_section .icon_div {
+        margin-top: 0px !important;
+        margin-bottom: 15px !important;
+
+    }
+
+    .main_section .img_Okayssion {
+        margin-top: 0px !important;
+        padding-top: 20px;
+
+    }
+
+    .main_section .all_cards_row {
+        padding-bottom: 0px !important;
+    }
+
+    .main_section .footer_line {
+        margin-top: 30px !important;
+    }
+
+    .main_section #footer_txt_1 {
+        padding-left: 10px !important;
+    }
+
+    .mainparent .coming_soon_backgroundimg {
+        background-image: url(./images/mbl\ img.png);
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+
+    .mainparent .coming_soon_data_class {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainparent .coming_soon_logoO {
+        width: 119.31px;
+        height: 27px;
+    }
+
+    .mainparent .navbar-toggler {
+        border: none;
+        padding-top: 15px;
+    }
+
+    .mainparent .coming_soon_heading {
+        width: 320px;
+        margin-top: 50%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 10px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainparent .coming_soon_heading1 {
+        margin-top: 10px !important;
+        width: 300px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4B4B4B;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainparent #popup.card {
+        height: 67px;
+        width: 20rem;
+        position: fixed;
+        left: calc(30% - 90px);
+        top: calc(75% - 1px);
+    }
+
+    .mainparent .illustration_img {
+        width: 45px;
+        height: 52px;
+        margin-left: 2%;
+    }
+
+    .mainparent .vector_croos_image {
+        height: 7px;
+        width: 7px;
+        margin-left: 93%;
+        margin-top: 11px;
+    }
+
+    .mainparent .card_heading_vendor {
+        font-size: 8.8px;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+
+    .mainparent .card_Peragraph_engage {
+        font-size: 7.5px;
+        margin-left: 20px;
+        font-weight: 550;
+    }
+
+    .mainparent .card_sign_btn {
+        width: 7em;
+        height: 20px;
+        background-color: #557195;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-style: 'Poppins';
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 6px;
+        color: #ffffff;
+        border: none;
+    }
+
+
+
+    .mainparent .line_navbar {
+        width: 0%;
+        display: none;
+    }
+
+    .mainparent .login_button_Navbar {
+        position: absolute;
+        margin-left: 45px;
+    }
+
+    .mainparent .signup_button_Navbar {
+        margin-top: 45%;
+    }
+
+    .mainparent .navbar {
+        padding: 0px;
+    }
+
+    /* main_section media query for mobile view ends */
+    /*main_div_book_now_button  media query for mobile view starts */
+
+    .main_div_book_now_button .card {
+        width: 13rem;
+    }
+
+    .main_div_book_now_button .book_now_btnn {
+        height: 28.57px !important;
+        width: 107px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_div_book_now_button .book_now_btnn a {
+        font-size: 15px !important;
+    }
+
+    .main_div_book_now_button .form-control {
+        width: 100% !important;
+        height: 36px !important;
+    }
+
+    .form_label_card {
+        width: 87vw !important;
+    }
+
+    .main_div_book_now_button .book_yourr {
+        font-size: 25px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .main_div_book_now_button .book_now_image_starting {
+        width: 25px;
+    }
+
+    .main_div_book_now_button .image_genies_booknow2 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        /* padding-left: 20px; */
+        margin-left: 30px;
+
+    }
+
+    #book_now_data_id {
+        padding-top: 18px !important;
+    }
+
+    .main_div_book_now_button .book_now_data_images {
+        font-size: 10px !important;
+        text-align: center !important;
+        margin-bottom: 0px;
+        padding-top: 0px !important;
+        padding: 2px !important;
+
+    }
+
+    .main_div_book_now_button .form-label {
+        font-size: 12px !important;
+        margin: 0px;
+        padding-top: 5px;
+        font-weight: 400;
+        font-family: 'inter';
+        font-style: 'normal';
+        /* padding-left: 10px; */
+    }
+
+    .main_div_book_now_button .form-control {
+        width: 300px;
+    }
+
+    .main_div_book_now_button .forms_text {
+        padding: 0px !important;
+
+    }
+
+    .main_div_book_now_button .image_genies_booknow {
+        display: grid;
+        justify-content: center;
+    }
+
+    .main_div_book_now_button .geinie_first_image {
+        width: 85%;
+        /* padding-left: 20px; */
+        margin-left: 20px;
+    }
+
+    .main_div_book_now_button .form_label_column {
+        padding: 0px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .main_div_book_now_button .text_area_column {
+        padding: 0px;
+        display: grid;
+        justify-content: center;
+    }
+
+
+
+    .main_div_book_now_button .book_now_button_final {
+        padding-top: 15px;
+        margin-bottom: 30px !important;
+    }
+
+    .main_div_book_now_button {
+        padding: 0px !important;
+    }
+
+    #text_area {
+        height: 193px !important;
+    }
+
+    .main_div_book_now_button .book_noww_image_div {
+        padding: 0px 25px 20px 25px !important;
+    }
+
+
+/* main_div_book_now_button media query  mobile view end */
+}
+
+/* media query for mobile view ends*/
+
+
+/* media query for commands */
+
+@media only screen and (min-width:768px) {
+
+    /* main_section_coming_soon why_choose_image media query starts */
+    .main_section_coming_soon .coming_soon_mobile_view {
+        display: none;
+    }
+
+    .main_section_coming_soon .coming_soon_desktop_img {
+        display: block;
+    }
+
+    /* main_section_coming_soon why_choose_image media query ends */
+
+
+
+    /* main_section why_choose_image media query starts */
+    .main_section .image_why_choose_mobile {
+        display: none;
+    }
+
+    .main_section .image_why_choose_desktop {
+        display: block;
+    }
+
+    /* main_section why_choose_image media query ends */
+}
+
+
+
+/* Okayssion Coming_soon css end */
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+    .mainparent #popup.card {
+        height: 130px;
+        width: 44.24rem;
+        left: 14%;
+        position: fixed;
+        z-index: 1;
+    }
+}
+
+/* Okayssion Book now Genie page  css end */
+
+/* <!-- /* Okayssion Book now Genie page css start */
+.main_div_book_now_button {
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+}
+
+.main_div_book_now_button .forms_text {
+    padding-top: 0px !important;
+}
+
+.main_div_book_now_button .book_now_heading .book_yourr {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #557A95;
+}
+
+.main_div_book_now_button .book_now_images_store {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 45px 8px rgba(187, 187, 187, 0.25);
+    /* margin-left: 15px !important; */
+}
+
+.main_div_book_now_button .book_now_btnn a {
+    text-decoration: none;
+    color: white;
+}
+
+.main_div_book_now_button .book_now_heading {
+    padding: 4%;
+}
+
+.main_div_book_now_button .card {
+    border: none;
+}
+
+.main_div_book_now_button .book_noww_image_div {
+    padding-top: 0px !important;
+    padding-bottom: 30px !important;
+}
+
+.main_div_book_now_button .book_genie_image {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 45px 8px rgba(187, 187, 187, 0.25);
+}
+
+.main_div_book_now_button .book_now_data_images {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 11px;
+    color: #4B4B4B;
+}
+
+.main_div_book_now_button .form-label {
+    width: 225px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 8px !important;
+    color: #818181;
+}
+
+.main_div_book_now_button .form-control {
+    width: 100%;
+    height: 53px;
+    border: 1px solid #818181;
+    border-radius: 12px;
+}
+
+.main_div_book_now_button .image_genies_booknow2 {
+    margin-left: 30px !important;
+}
+
+.main_div_book_now_button .book_now_data_id {
+    padding-top: 18px !important;
+}
+
+.main_div_book_now_button #text_area {
+    height: 252px;
+    border: 1px solid #818181;
+    border-radius: 12px;
+}
+
+.main_div_book_now_button .book_now_btnn {
+    width: 174px;
+    height: 47px;
+    background: #557A95;
+    border-radius: 8.82353px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+/* mobile view */
+
+
+
+
+/* tablet view */
